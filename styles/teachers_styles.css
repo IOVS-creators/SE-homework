@@ -751,6 +751,7 @@ section
 .teacher
 {
 	margin-bottom: 82px;
+	max-width: 280px;
 }
 .teacher:nth-last-child(-n+3)
 {
@@ -824,7 +825,7 @@ section
 .card-title a
 {
 	font-size: 22px;
-	font-weight: 500;
+	font-weight: 800;
 	color: #1a1a1a;
 	line-height: 1.2;
 }

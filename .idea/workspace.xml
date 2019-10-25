@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30f250cb-b261-4808-a754-7e24c7f5540e" name="Default Changelist" comment="" />
+    <list default="true" id="30f250cb-b261-4808-a754-7e24c7f5540e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/2019-10-20 17.28.16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/b.shambetova.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/n.shaidullaev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s.erdolatov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumb_image_5_6980253772580586157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vibory print.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/teachers_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/teachers_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +33,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +61,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571029940326</updated>
-      <workItem from="1571029941507" duration="1641000" />
+      <workItem from="1571029941507" duration="1994000" />
+      <workItem from="1571298710553" duration="2329000" />
+      <workItem from="1571381524105" duration="16000" />
+      <workItem from="1571569526176" duration="4091000" />
+      <workItem from="1571908183764" duration="4336000" />
+      <workItem from="1571986910207" duration="2563000" />
     </task>
     <servers />
   </component>
@@ -51,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
