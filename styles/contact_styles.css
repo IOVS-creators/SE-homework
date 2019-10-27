@@ -300,6 +300,13 @@ section
 	width: calc(100% - 279px);
 	height: 100%;
 }
+@font-face {
+	font-family: myFirstFont;
+	src: url(../plugins/GOTFont/9327.ttf);
+}
+.header_content .got-com { 
+    font-family:  myFirstFont;
+}
 .header_content::before
 {
 	display: block;
@@ -319,18 +326,19 @@ section
 
 .logo_container
 {
-	display: inline-block;
-	padding-left: 76px;
+	display: inline-flex;
+	padding-left: 35px;
 }
 .logo span
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	font-weight: 900;
-	color: #3a3a3a;
-	vertical-align: middle;
-	text-transform: uppercase;
-	margin-left: 3px;
+    font-size: 20px;
+    color: #3a3a3a;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.logo {
+	padding-left: 25px;
+    width: 140px
 }
 
 /*********************************
@@ -371,7 +379,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 
 /*********************************
@@ -382,7 +390,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #07a2ad;
 }
 .header_side img
 {
@@ -424,7 +432,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 
 /*********************************
@@ -502,7 +510,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .menu_close_container
 {
@@ -549,7 +557,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #07a2ad;
 }
 
 /*********************************
@@ -587,7 +595,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .menu_container.active .menu_social_container
 {
@@ -664,7 +672,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #07a2ad;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -713,7 +721,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #07a2ad;
 }
 
 /*********************************
@@ -772,7 +780,7 @@ section
 .input_field:focus
 {
 	outline: none !important;
-	border-color: #ffb606;
+	border-color: #07a2ad;
 }
 .text_field
 {
@@ -786,13 +794,13 @@ section
 .text_field:focus
 {
 	outline: none !important;
-	border-color: #ffb606;
+	border-color: #07a2ad;
 }
 .contact_send_btn
 {
 	width: 100%;
 	height: 48px;
-	background: #ffb606;
+	background: #07a2ad;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -802,7 +810,7 @@ section
 }
 .contact_send_btn:focus
 {
-	outline: solid 1px #ffb606;
+	outline: solid 1px #07a2ad;
 	border: green !important;
 }
 
@@ -911,14 +919,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #07a2ad;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #07a2ad;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -980,7 +988,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .footer_contact_item
 {
@@ -1021,7 +1029,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .footer_social .menu_social_item:last-child
 {
