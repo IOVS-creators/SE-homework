@@ -300,6 +300,13 @@ section
 	width: calc(100% - 279px);
 	height: 100%;
 }
+@font-face {
+	font-family: myFirstFont;
+	src: url(../plugins/GOTFont/9327.ttf);
+}
+.header_content .got-com { 
+    font-family:  myFirstFont;
+}
 .header_content::before
 {
 	display: block;
@@ -319,18 +326,19 @@ section
 
 .logo_container
 {
-	display: inline-block;
-	padding-left: 76px;
+	display: inline-flex;
+	padding-left: 35px;
 }
 .logo span
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	font-weight: 900;
-	color: #3a3a3a;
-	vertical-align: middle;
-	text-transform: uppercase;
-	margin-left: 3px;
+	font-size: 20px;
+    color: #3a3a3a;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.logo {
+	padding-left: 25px;
+    width: 140px
 }
 
 /*********************************
@@ -371,7 +379,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 
 /*********************************
@@ -382,7 +390,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #07a2ad;
 }
 .header_side img
 {
@@ -424,7 +432,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 
 /*********************************
@@ -502,7 +510,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .menu_close_container
 {
@@ -549,7 +557,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #07a2ad;
 }
 
 /*********************************
@@ -587,7 +595,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .menu_container.active .menu_social_container
 {
@@ -664,7 +672,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #07a2ad;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -713,7 +721,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #07a2ad;
 }
 
 /*********************************
@@ -763,7 +771,7 @@ section
 }
 .button_color_1
 {
-	background: #ffb606;
+	background: #07a2ad;
 }
 .button_color_1 a
 {
@@ -780,11 +788,11 @@ section
 .button_line_1
 {
 	background: transparent;
-	border: solid 2px #ffb606;
+	border: solid 2px #07a2ad;
 }
 .button_line_1 a
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .button_line_2
 {
@@ -859,12 +867,12 @@ section
 }
 .accordion.active
 {
-	background: #ffb606;
+	background: #07a2ad;
 	color: #FFFFFF;
 }
 .accordion:active
 {
-	background: #ffb606 !important;
+	background: #07a2ad !important;
 	color: #FFFFFF;
 }
 .accordion::after
@@ -883,7 +891,7 @@ section
 	width: 62px;
 	height: 100%;
 	content: '+';
-	background: #ffb606;
+	background: #07a2ad;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 500;
@@ -1001,7 +1009,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #ffb606;
+	color: #07a2ad;
 	line-height: 1;
 	margin-top: 41px;
 }
@@ -1085,7 +1093,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #07a2ad;
 }
 .footer_social .menu_social_item:last-child
 {
