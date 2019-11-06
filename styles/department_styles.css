@@ -1243,13 +1243,6 @@ body {
     opacity: .6;
 }
 
-p {
-    font-family: 'Sorts Mill Goudy', serif;
-    line-height: 1.7;
-    letter-spacing: 0.025em;
-    font-size: var(--base-font-size);
-}
-
 blockquote {
     font-family: 'Sorts Mill Goudy', serif;
     line-height: 1.5;
