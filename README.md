@@ -10,7 +10,7 @@
  ## Installation
  ## 1. Clone or Download repository
  ```
- https://github.com/IOVS-creators/SE-homework.git
+ git clone https://github.com/IOVS-creators/SE-homework.git
 
 ```
 
