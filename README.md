@@ -14,4 +14,5 @@
 
 ```
  ## OR
- Click to download
+ 
+ [Click to download](https://github.com/IOVS-creators/SE-homework/archive/master.zip)
