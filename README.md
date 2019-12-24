@@ -13,5 +13,5 @@
  $ git clone https://github.com/IOVS-creators/SE-homework.git
 
 ```
-OR
-Click to download
+ ## OR
+ Click to download
